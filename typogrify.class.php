@@ -42,7 +42,7 @@ class Typogrify {
     }
     else {
       $mthree = $matchobj[3];
-      if (($mthree{strlen($mthree)-1}) == " ") {
+      if (($mthree[strlen($mthree)-1]) == " ") {
         $caps = substr($mthree, 0, -1);
         $tail = ' ';
       }
